@@ -35,8 +35,7 @@ Screenshots (em caso de falha)
 
 Relatórios ficam disponíveis em:
 
-/reports/
-  ├── screenshots/
+/reports/screenshots/
  
 
 
