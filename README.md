@@ -4,16 +4,15 @@ Este repositório tem como objetivo validar endpoints principais, garantir quali
 
 Configuração do ambiente
 1. Clone o repositório e acesse o diretório:
+   https://github.com/juniorsp25/rethinkbank-api-tests.git
 
-2. Tecnologias utilizadas
+3. Tecnologias utilizadas
 
 Node.js
  >=18
 
 Cypress
  >=13
-
-git@github.com:juniorsp25/rethinkbank-api-tests.git
 
 
 2. Instale as dependências:
@@ -25,7 +24,7 @@ Rodar somente os testes de API
  Somente uma única API - npx cypress run --spec "cypress/e2e/api/**/*.cy.js"
 Todas as APIs da pasta - npm run test:api
 
-Modo Interativo Cypress 
+Rodar no modo interativo (Cypress GUI) 
 npx cypress open 
 
 4. Evidências geradas
