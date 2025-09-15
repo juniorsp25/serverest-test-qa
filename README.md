@@ -54,16 +54,22 @@ Acessar tela de login.
 
 Cenário 1 :
 Preencher usuário e senha corretos.
+
 Resultado esperado : Validar label da tela home Bem vindo que indica que estou logado no ambiente.
 
 Cenário 2 :
 Cadastro de novo produto
+
 Acessar área administrativa.
+
 Cadastrar produto com nome, preço e descrição.
+
 Resultado esperado : Validar que o produto aparece na lista.
 
 Cenário 3 : Falha
+
 Fluxo de compra
+
 Adicionar produto ao carrinho.
 
 Resultado esperado : Coletar evidência que ao adicionar o produto ao carrinho, não foi possível concluir a compra
