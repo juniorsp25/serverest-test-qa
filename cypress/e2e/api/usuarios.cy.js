@@ -13,7 +13,7 @@ describe('API - Usuários', () => {
       body: user,
       failOnStatusCode: false
     }).then((res) => {
-      expect([201, 400]).to.include(res.status); // alguns ambientes podem responder 400 se email duplicado
+      expect([201, 400]).to.include(res.status); 
       if (res.status === 201) {
         expect(res.body).to.have.property('_id');
         expect(res.body.message || res.body.msg || '').to.match(/sucesso|cadastrado/i);

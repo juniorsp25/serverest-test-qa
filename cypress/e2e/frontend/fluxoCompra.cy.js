@@ -2,7 +2,7 @@ describe('Fluxo de Compra - Frontend', () => {
   before(() => {
     const ts = Date.now();
 
-    // === Massa: cliente e admin com emails únicos e válidos ===
+    // === Massa: cliente e admin com emails únicos e válidos
     cy.fixture('usuarios').then((u) => {
       const cliente = {
         ...u.cliente,
@@ -19,7 +19,7 @@ describe('Fluxo de Compra - Frontend', () => {
       // cria cliente (ignora 400 de duplicidade)
       cy.apiCreateUser(cliente);
 
-      // cria admin -> login -> guarda token (encadeado!)
+      // cria admin -> login -> guarda token
       cy.apiCreateUser(admin)
         .then(() => cy.apiLogin({ email: admin.email, password: admin.password }))
         .then(({ body }) => {
