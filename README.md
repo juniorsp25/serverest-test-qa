@@ -13,8 +13,8 @@ Node.js
 Cypress
  >=13
 
-git clone https://github.com/juniorsp25/serverest-testQA.git
-cd serverest-testQA
+git@github.com:juniorsp25/rethinkbank-api-tests.git
+
 
 2. Instale as dependências:
 npm install
