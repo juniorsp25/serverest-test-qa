@@ -34,7 +34,9 @@ npx cypress open
 
 # ou por arquivo
 npx cypress run --spec "cypress/e2e/frontend/login.cy.js"
+
 npx cypress run --spec "cypress/e2e/frontend/cadastroProduto.cy.js"
+
 npx cypress run --spec "cypress/e2e/frontend/fluxoCompra.cy.js"
 
 4. Evidências geradas
