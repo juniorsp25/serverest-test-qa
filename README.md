@@ -23,7 +23,7 @@ npm install
 Rodar todos os testesFront + API - npx cypress run
 Rodar somente os testes de API
  Somente uma única API - npx cypress run --spec "cypress/e2e/api/**/*.cy.js"
-Todas as APIs da pasta - nom run test:api
+Todas as APIs da pasta - npm run test:api
 
 Modo Interativo Cypress 
 npx cypress open 
