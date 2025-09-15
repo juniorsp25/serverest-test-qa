@@ -7,6 +7,7 @@ module.exports = defineConfig({
     supportFile: 'cypress/support/e2e.js',
     viewportWidth: 1366,
     viewportHeight: 768,
+    screenshotsFolder: 'cypress/evidencias/screenshots',
     video: false,
     env: {
       apiUrl: 'https://serverest.dev'

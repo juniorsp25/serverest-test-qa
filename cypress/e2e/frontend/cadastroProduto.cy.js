@@ -24,12 +24,11 @@ describe('Cadastro de Produto - Frontend', () => {
         cy.contains('button, [role="button"]', /cadastrar|salvar|criar/i).click({ force: true });
       });
 
-      // assert: produto aparece na listagem
-      //cy.contains(/Lista dos Produtos/i).should('be.visible');
-      //cy.contains(p.novo.nome, { matchCase: false }).should('be.visible');
+      // Verifica se o produto aparece na lista
       cy.contains('tr', p.novo.nome).should('be.visible').within(() => {
         cy.get('td').eq(1).should('contain', p.novo.preco);
-        cy.get('td').eq(2).should('contain', p.novo.quantidade);
+        cy.get('td').eq(2).should('contain', p.novo.descricao);
+      
         });
 
 

@@ -20,12 +20,12 @@ Cypress.Commands.add('apiLogin', (login) => {
   });
 });
 
-Cypress.Commands.add('apiCreateProduct', (Produto, token) => {
+Cypress.Commands.add('apiCreateProduct', (produtos, token) => {
   return cy.request({
     method: 'POST',
     url: `${Cypress.env('apiUrl')}/produtos`,
     headers: { Authorization: token ? token : '' },
-    body: produto,
+    body: produtos,
     failOnStatusCode: false,
   });
 });
