@@ -1,0 +1,17 @@
+{
+  "name": "servidor-qa-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Desafio técnico QA - Automação Cypress (Frontend + API) para Serverest.",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:headed": "cypress run --headed --browser chrome",
+    "test:frontend": "cypress run --spec 'cypress/e2e/frontend/**/*.cy.js'",
+    "test:api": "cypress run --spec 'cypress/e2e/api/**/*.cy.js'"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  }
+}

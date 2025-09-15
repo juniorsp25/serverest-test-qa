@@ -1,0 +1,18 @@
+{
+  "admin": {
+    "nome": "João",
+    "email": "testeqajunioraadmin@uorak.com",
+    "password": "Cap1993@",
+    "administrador": "true"
+  },
+  "cliente": {
+    "nome": "Anthony",
+    "email": "testecliente@uorak.com",
+    "password": "Cap1993@",
+    "administrador": "false"
+  },
+  "credenciaisAdmin": {
+    "email": "testeqajunioraadmin@uorak.com",
+    "password": "Cap1993@"
+  }
+}
