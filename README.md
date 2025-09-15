@@ -76,6 +76,7 @@ Resultado esperado : Coletar evidência que ao adicionar o produto ao carrinho, 
 e tirar um print da tela, reportando que há algo de errado no fluxo.
 
 Para forçar a falha de checkout (e gerar print explícito), execute:
+
 npx cypress run --env forceCheckout=true --spec "cypress/e2e/frontend/fluxoCompra.cy.js"
 
 
